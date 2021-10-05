@@ -1,13 +1,9 @@
-html {
-    font-size: 15px;
-}
-
 body {
     margin: 0;
     min-height: 600px;
 
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
+    font-size: 15px;
     color: #3D3D3D;
 }
 
@@ -19,4 +15,52 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+}
+
+.page {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.links {
+    margin: 30px 0;
+    width: 60%;
+
+    font-size: 0;
+}
+
+.links__title {
+    margin-bottom: .5em;
+
+    font-size: 32px;
+    font-weight: 400;
+    color: black;
+}
+
+.links__col {
+    display: inline-block;
+    margin-bottom: 1em;
+    width: calc(100% / 3);
+
+    font-size: 15px;
+
+    vertical-align: top;
+}
+
+.links__item {
+    margin: .5em 0;
+}
+
+.links__link {
+    text-decoration: none;
+    color: #575599;
+}
+
+.links__link:hover {
+    color: #617bf3;
+}
+
+.links__list-caption {
+    font-size: 18px;
+    font-weight: 700;
 }
